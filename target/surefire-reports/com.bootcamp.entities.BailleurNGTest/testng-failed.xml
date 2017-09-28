@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.bootcamp.entities.BailleurNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.bootcamp.entities.BailleurNGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="testSomeMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.bootcamp.entities.BailleurNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.bootcamp.entities.BailleurNGTest] -->

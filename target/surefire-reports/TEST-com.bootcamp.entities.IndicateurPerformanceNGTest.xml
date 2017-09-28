@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="com.bootcamp.entities.IndicateurPerformanceNGTest" time="11.653" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.bootcamp.entities.IndicateurPerformanceNGTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Archange\Documents\NetBeansProjects\TP_JPA"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Archange\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.0.1\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ActiveState Komodo Edit 10\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Calibre2\;%MVN_HOME%/bin;C:\Program Files\Git\cmd;C:\Program Files\GitExtensions\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Archange"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Archange"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.0.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.bootcamp.entities.IndicateurPerformanceNGTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.0.1\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.bootcamp.entities.IndicateurPerformanceNGTest" name="testAdd" time="0.171">
+    <failure message="Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+Error Code: 20000
+Call: INSERT INTO TP_INDICATEURPERFORMANCE (ID, NOM) VALUES (?, ?)
+	bind =&gt; [2 parameters bound]
+Query: InsertObjectQuery(com.bootcamp.entities.IndicateurPerformance@18830ea)" type="javax.persistence.RollbackException">javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+Error Code: 20000
+Call: INSERT INTO TP_INDICATEURPERFORMANCE (ID, NOM) VALUES (?, ?)
+	bind =&gt; [2 parameters bound]
+Query: InsertObjectQuery(com.bootcamp.entities.IndicateurPerformance@18830ea)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commit(EntityTransactionImpl.java:157)
+	at com.bootcamp.entities.IndicateurPerformanceNGTest.testAdd(IndicateurPerformanceNGTest.java:88)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+Error Code: 20000
+Call: INSERT INTO TP_INDICATEURPERFORMANCE (ID, NOM) VALUES (?, ?)
+	bind =&gt; [2 parameters bound]
+Query: InsertObjectQuery(com.bootcamp.entities.IndicateurPerformance@18830ea)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:331)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:900)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:962)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:631)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:558)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:2002)
+	at org.eclipse.persistence.sessions.server.ClientSession.executeCall(ClientSession.java:298)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:242)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:228)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.insertObject(DatasourceCallQueryMechanism.java:377)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:165)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:180)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.insertObjectForWrite(DatabaseQueryMechanism.java:489)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommit(InsertObjectQuery.java:80)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommitWithChangeSet(InsertObjectQuery.java:90)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.executeWriteWithChangeSet(DatabaseQueryMechanism.java:301)
+	at org.eclipse.persistence.queries.WriteObjectQuery.executeDatabaseQuery(WriteObjectQuery.java:58)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.DatabaseQuery.executeInUnitOfWork(DatabaseQuery.java:798)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWorkObjectLevelModifyQuery(ObjectLevelModifyQuery.java:108)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWork(ObjectLevelModifyQuery.java:85)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2896)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1804)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1786)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1737)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitNewObjectsForClassWithChangeSet(CommitManager.java:226)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitAllObjectsWithChangeSet(CommitManager.java:125)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.writeAllObjectsWithChangeSet(AbstractSession.java:4207)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabase(UnitOfWorkImpl.java:1441)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabaseWithChangeSet(UnitOfWorkImpl.java:1531)
+	at org.eclipse.persistence.internal.sessions.RepeatableWriteUnitOfWork.commitRootUnitOfWork(RepeatableWriteUnitOfWork.java:277)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitAndResume(UnitOfWorkImpl.java:1169)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commit(EntityTransactionImpl.java:132)
+	... 35 more
+Caused by: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+	at org.apache.derby.client.am.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.SqlException.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.ClientPreparedStatement.executeUpdate(Unknown Source)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:890)
+	... 66 more
+Caused by: ERROR 23505: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+	at org.apache.derby.client.am.ClientStatement.completeExecute(Unknown Source)
+	at org.apache.derby.client.net.NetStatementReply.parseEXCSQLSTTreply(Unknown Source)
+	at org.apache.derby.client.net.NetStatementReply.readExecute(Unknown Source)
+	at org.apache.derby.client.net.StatementReply.readExecute(Unknown Source)
+	at org.apache.derby.client.net.NetPreparedStatement.readExecute_(Unknown Source)
+	at org.apache.derby.client.am.ClientPreparedStatement.readExecute(Unknown Source)
+	at org.apache.derby.client.am.ClientPreparedStatement.flowExecute(Unknown Source)
+	at org.apache.derby.client.am.ClientPreparedStatement.executeUpdateX(Unknown Source)
+	... 68 more
+</failure>
+    <system-out>[EL Info]: 2017-09-28 15:07:36.082--ServerSession(21084687)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+[EL Warning]: metadata: 2017-09-28 15:07:36.409--ServerSession(21084687)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [indicateurPerformance] for the entity class [class com.bootcamp.entities.Livrable] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2017-09-28 15:07:36.456--ServerSession(21084687)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [indicateurPerformance] for the entity class [class com.bootcamp.entities.Projet] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2017-09-28 15:07:36.456--ServerSession(21084687)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [indicateurPerformance] for the entity class [class com.bootcamp.entities.Programme] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2017-09-28 15:07:36.534--ServerSession(21084687)--file:/C:/Users/Archange/Documents/NetBeansProjects/TP_JPA/target/classes/_tp_jpa login successful
+[EL Warning]: 2017-09-28 15:07:43.85--ServerSession(21084687)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLTransactionRollbackException: Constraint &apos;TPBLLRPRGRMMEBLLRD&apos; existe déjà dans Schema &apos;ROOT&apos;.
+Error Code: 30000
+Call: ALTER TABLE tp_bailleur_programme ADD CONSTRAINT tpbllrprgrmmebllrd FOREIGN KEY (bailleur_id) REFERENCES PERSONNE (ID)
+Query: DataModifyQuery(sql=&quot;ALTER TABLE tp_bailleur_programme ADD CONSTRAINT tpbllrprgrmmebllrd FOREIGN KEY (bailleur_id) REFERENCES PERSONNE (ID)&quot;)
+Ajoute
+[EL Warning]: 2017-09-28 15:07:44.334--UnitOfWork(29048929)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: L&apos;instruction a été abandonnée car elle aurait entraîné une valeur de clé en double dans une contrainte de clé primaire ou unique, ou un index unique identifié par &apos;SQL170928150740230&apos; défini sur &apos;TP_INDICATEURPERFORMANCE&apos;.
+Error Code: 20000
+Call: INSERT INTO TP_INDICATEURPERFORMANCE (ID, NOM) VALUES (?, ?)
+	bind =&gt; [2 parameters bound]
+Query: InsertObjectQuery(com.bootcamp.entities.IndicateurPerformance@18830ea)
+</system-out>
+  </testcase>
+  <testcase classname="com.bootcamp.entities.IndicateurPerformanceNGTest" name="testGetId" time="0"/>
+  <testcase classname="com.bootcamp.entities.IndicateurPerformanceNGTest" name="testSetId" time="0"/>
+</testsuite>

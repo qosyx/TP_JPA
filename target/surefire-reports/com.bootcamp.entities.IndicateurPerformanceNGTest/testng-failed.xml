@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.bootcamp.entities.IndicateurPerformanceNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.bootcamp.entities.IndicateurPerformanceNGTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testAdd"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.bootcamp.entities.IndicateurPerformanceNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.bootcamp.entities.IndicateurPerformanceNGTest] -->
